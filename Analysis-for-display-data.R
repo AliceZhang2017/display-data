@@ -1,9 +1,4 @@
-#########################################################
-## Please answer all questions below. Append your name
-##      at the end of the file name before submitting.
-#########################################################
-
-### Load all the packages for the questions,so you don't need to load one by one
+### Load all the packages needed for this project
 
 rm(list = ls())
 load.packages<-function(x){
@@ -30,7 +25,7 @@ registerDoParallel(cores=4)
 
 ##********************************************************
 ## 1) Pull in 'Anonymized Display Data.csv'. 
-setwd('C:/Users/Jiawen/Desktop/Statisticlearning') # Set my current work directory
+setwd('C:/Users/Alice/Desktop') # Set my current work directory
 data = read.csv("Anonymized Display Data.csv") # Read and name the dataset as data
 ##********************************************************
 
@@ -214,6 +209,6 @@ ggplot(data = CI, aes(x = days)) +
 
 #########################################################
 ##
-## End of Answer by Alice Zhang. Thank you!
+## End of Project by Alice Zhang. Thank you!
 ##      
 #########################################################
