@@ -1,3 +1,4 @@
 # Projects Using R
-# Predictive projects
+# Prediction project
+# Classification project
 # Analysis for display advertising dataset
