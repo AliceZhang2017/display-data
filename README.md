@@ -12,3 +12,7 @@
 * Rock–paper–scissors Game
 ## SQL Practice
 * Query and join
+## Data analysis Project Using Tableau
+* Data Analysis for display advertising data
+## Data Analysis Project Using Excel(e.g. Vlookup, pivot table)
+* Analysis for business data
