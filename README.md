@@ -1,10 +1,11 @@
 # Table of contents
-## Projects Using R
+## Data Analysis Projects Using R
 * Analysis for display advertising dataset
 * Data Visualization in R using ggplot
-## Other projects Using R
-* Prediction project
+## Machine Learning Using R
+* Prediction project (Ridge, lasso, ols model)
 * Classification project
+* Neural Network
 ## Projects Using Python
 * Calculate Leap Year
 * Guess number 
