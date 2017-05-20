@@ -1,0 +1,51 @@
+--select * from tblAuthorSELECT   
+--FROM      tblEpisodeCompanion INNER JOIN
+--                tblCompanion ON tblEpisodeCompanion.CompanionId = tblCompanion.CompanionId CROSS JOIN
+--                tblEpisodeEnemy INNER JOIN
+--                tblEnemy ON tblEpisodeEnemy.EnemyId = tblEnemy.EnemyId CROSS JOIN
+--                tblAuthor INNER JOIN
+--                tblEpisode ON tblAuthor.AuthorId = tblEpisode.AuthorId INNER JOIN
+--                tblDoctor ON tblEpisode.DoctorId = tblDoctor.DoctorId
+--SELECT   tblAuthor.AuthorName,tblEpisode.Title,tblEpisode.EpisodeType
+--FROM      tblAuthor INNER JOIN
+--                tblEpisode ON tblAuthor.AuthorId = tblEpisode.AuthorId
+--where tblEpisode.EpisodeType like '%special%'
+--order by tblEpisode.Title
+use WorldEvents
+--select EventName, EventDate, CategoryName
+--from tblEvent as e FULL OUTER JOIN
+--tblCategory as c on e.CategoryID = c.CategoryID 
+--where EventName is null
+--SELECT   tblEvent.EventName as what, tblEvent.EventDate as 'when', tblCountry.CountryName as Country
+--FROM      tblCountry INNER JOIN
+--                tblEvent ON tblCountry.CountryID = tblEvent.CountryID
+--order by 'when' asc
+
+use DoctorWho
+--select d.DoctorName, e.title from
+--tblDoctor as d 
+--inner join tblEpisode as e
+--on d.DoctorId = e.DoctorId
+--where YEAR(e.EpisodeDate) = 2010
+--select a.AuthorName, b.Title, en.EnemyName, d.DoctorName, Total = LEN(a.AuthorName)+len(b.title) +len(en.EnemyName) +LEN(d.DoctorName)
+--from tblAuthor as a join tblEpisode as b on a.AuthorId = b.AuthorId
+--join tblDoctor as d on d.DoctorId = b.DoctorId
+--join tblEpisodeEnemy as ee on ee.EpisodeId = b.EpisodeId 
+--join tblEnemy as en on en.EnemyId = ee.EnemyId 
+--where LEN(a.AuthorName)+len(b.title) +len(en.EnemyName) +LEN(d.DoctorName)< 40
+
+--use WorldEvents
+--select en.EventName, en.EventDate, c.CountryName, ct.ContinentName from
+--tblEvent as en inner join 
+--tblCountry as c on en.CountryID = c.CountryID inner join
+--tblContinent as ct on ct.ContinentID = c.ContinentID
+--where ct.ContinentName = 'Antarctic'
+--or c.CountryName = 'Russia'
+--select  c.CountryName  from tblEvent as e
+--full outer join tblCountry as c on e.CountryID = c.CountryID
+--where e.EventName is null
+--select c.CompanionName from tblCompanion as c full outer join 
+--tblEpisodeCompanion as ec 
+--on ec.CompanionId = c.CompanionId
+--where ec.EpisodeId is null
+
