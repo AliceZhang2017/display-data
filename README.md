@@ -1,7 +1,7 @@
 # Table of contents
 ## Projects Using R
 * Analysis for display advertising dataset
-* Plots generated in R by using ggplot
+* Data Visualization in R using ggplot
 ## Other projects Using R
 * Prediction project
 * Classification project
